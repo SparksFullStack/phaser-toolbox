@@ -5,6 +5,7 @@ class Model {
 
     set score(val){
         this._score = val;
+        emitter.emit(G.SCORE_UPDATED);
     }
 
     get score(){

@@ -12,6 +12,11 @@ class SceneMain extends Phaser.Scene {
         // defines all objects for the scene   
         emitter = new Phaser.Events.EventEmitter();
         controller = new Controller();
+
+        this.scoreBox = new ScoreBox({ scene: this });
+        Align.centerH(this.scoreBox);
+        this.scoreBox.y = 50;
+
     }
     
     update() {
