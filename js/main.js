@@ -1,5 +1,7 @@
 var game;
 var model;
+var emitter;
+var G; // this is the constants variable
 
 window.onload = function(){
     var config = {
@@ -10,6 +12,7 @@ window.onload = function(){
         scene: [SceneMain]
     };
 
+    G = new Constants();
     model = new Model();
     game = new Phaser.Game(config);
 }
