@@ -2,6 +2,7 @@ var game;
 var model;
 var emitter;
 var G; // this is the constants variable
+var controller;
 
 window.onload = function(){
     var config = {
