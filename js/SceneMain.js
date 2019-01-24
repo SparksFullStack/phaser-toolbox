@@ -10,6 +10,7 @@ class SceneMain extends Phaser.Scene {
 
     create() {
         // defines all objects for the scene   
+        emitter = new Phaser.Events.EventEmitter();
     }
     
     update() {
