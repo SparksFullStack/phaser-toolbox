@@ -9,7 +9,7 @@ class SceneMain extends Phaser.Scene {
     }
 
     create() {
-        // defines all objects for the scene        
+        // defines all objects for the scene   
     }
     
     update() {
